@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "persona\\": "src/"
+            "src\\": "src/"
         }
     },
     "require": {

@@ -1,0 +1,21 @@
+{
+    "name": "osvaldogdelrio/persona",
+    "description": "Clase para generar objeto Persona y sus atributos",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Osvaldo G Del Rio",
+            "email": "osdelrio@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "persona\\": "persona/"
+        }
+    },
+    "require": {
+        "osvaldogdelrio/factory": "^1.0", 
+        "composer-runtime-api": "^2.0"
+    }
+}

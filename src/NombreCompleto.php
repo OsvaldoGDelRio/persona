@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace persona;
+namespace src;
 use persona\{Nombres,PrimerApellido,SegundoApellido};
 
 class NombreCompleto

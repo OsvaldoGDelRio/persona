@@ -1,27 +1,28 @@
 <?php
-namespace persona;
+namespace src;
+use Exception;
 
-Class SegundoApellido
+Class PrimerApellido
 {
     private $_apellido;
 
-    public function __construct(?string $Apellido = null)
+    public function __construct(string $Apellido)
     {
         $this->_apellido = $this->setApellido($Apellido);  
     }
 
-    public function segundoApellido(): string
+    public function primerApellido(): string
     {
         return $this->_apellido; 
     }
 
     private function setApellido($Apellido): string
     {
-        if(!$Apellido)
+        if(!strlen($Apellido) > 0)
         {
-            return '';
+            throw new Exception("El primer apellido está vacio");
         }
-
+        
         return $Apellido;
     }
 }

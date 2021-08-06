@@ -1,6 +1,6 @@
 <?php
-namespace persona;
-use factory\FactoryClassInterface;
+namespace src;
+use factory\src\FactoryClassInterface;
 
 class CrearPersona implements FactoryClassInterface
 {   

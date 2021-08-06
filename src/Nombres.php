@@ -1,5 +1,5 @@
 <?php
-namespace persona;
+namespace src;
 use Exception;
 
 Class Nombres

@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "94403e610346d645d7d722bbd2da4c40",
+    "packages": [
+        {
+            "name": "osvaldogdelrio/factory",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OsvaldoGDelRio/factory.git",
+                "reference": "e85dd3b081e0ccdab2ddbd13c28c971436734a9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OsvaldoGDelRio/factory/zipball/e85dd3b081e0ccdab2ddbd13c28c971436734a9b",
+                "reference": "e85dd3b081e0ccdab2ddbd13c28c971436734a9b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "factory\\": "factory/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Clase para crear otros objetos/clases con el patr\u0000n Factory",
+            "support": {
+                "issues": "https://github.com/OsvaldoGDelRio/factory/issues",
+                "source": "https://github.com/OsvaldoGDelRio/factory/tree/1.0"
+            },
+            "time": "2021-08-06T04:02:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "composer-runtime-api": "^2.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

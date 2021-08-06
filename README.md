@@ -1,23 +1,23 @@
 # persona
 Clase en PHP para crear el Objeto/Clase persona que utiliza los atributos:
 
-Nombre completo
-    -Nombres
-    -Primer Apellido
-    -Segundo Apellido
-Fecha de nacimiento
-Sexo
+- Nombre completo
+-    -Nombres
+-    -Primer Apellido
+-    -Segundo Apellido
+- Fecha de nacimiento
+- Sexo
 
 ---------------------------------------------------------------------------
-Uso:
+- Uso:
 
-<?php
-declare(strict_types=1);
-require_once __DIR__ . '/vendor/autoload.php';
+- <?php
+- declare(strict_types=1);
+- require_once __DIR__ . '/vendor/autoload.php';
 
-use src\CrearPersona;
+- use src\CrearPersona;
 
-$persona = new CrearPersona;
+- $persona = new CrearPersona;
 
 $Juan = $persona->crear(array(
     'nombres' => 'Juan',

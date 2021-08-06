@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 namespace src;
-use persona\{Nombres,PrimerApellido,SegundoApellido};
+use src\{Nombres,PrimerApellido,SegundoApellido};
 
 class NombreCompleto
 {

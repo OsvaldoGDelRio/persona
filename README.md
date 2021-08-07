@@ -1,23 +1,33 @@
 # persona
 Clase en PHP para crear el Objeto/Clase persona que utiliza los atributos:
 
-- Nombre completo
--    -Nombres
--    -Primer Apellido
--    -Segundo Apellido
-- Fecha de nacimiento
-- Sexo
+Nombre completo
+    -Nombres
+    -Primer Apellido
+    -Segundo Apellido
+Fecha de nacimiento
+Sexo
+
+## composer
+
+```shell
+composer require osvaldogdelrio/persona
+```
+
 
 ---------------------------------------------------------------------------
-- Uso:
+## Uso por medio de Factory:
 
-- <?php
-- declare(strict_types=1);
-- require_once __DIR__ . '/vendor/autoload.php';
 
-- use src\CrearPersona;
 
-- $persona = new CrearPersona;
+```php
+<?php
+declare(strict_types=1);
+require_once __DIR__ . '/vendor/autoload.php';
+
+use src\CrearPersona;
+
+$persona = new CrearPersona;
 
 $Juan = $persona->crear(array(
     'nombres' => 'Juan',
@@ -36,11 +46,10 @@ Juan Lopez Perez
 Hombre
 30-07-1982
 */
-
----------------------------------------------------------------------------
+```
 
 Se puede obtener de forma separada cada elemento del nombre:
-
+```php
 echo $Juan->nombres().'<br>';
 echo $Juan->primerApellido().'<br>';
 echo $Juan->segundoApellido();
@@ -50,3 +59,4 @@ Juan
 Lopez
 Perez
 */
+```

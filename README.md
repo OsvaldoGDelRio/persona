@@ -6,7 +6,7 @@ Nombre completo\
     -Primer Apellido\
     -Segundo Apellido\
 Fecha de nacimiento\
-Sexo\
+Sexo
 
 ## composer
 
@@ -61,3 +61,5 @@ Lopez
 Perez
 */
 ```
+---------------------------------------------------
+También se pude usar sin la libreria de factory construyendo la clase Persona e inyectando el resto

@@ -6,7 +6,9 @@ Nombre completo\
     -Primer Apellido\
     -Segundo Apellido\
 Fecha de nacimiento\
-Sexo
+Sexo\
+
+Esta clase permite crear un objeto que persiste con los datos que contenga en sus atributos hasta que es destruido al utilizar el "setter" en el mismo constructor llamando a una función privada y no poder ser llamado de forma publica. Al último queda una clase con la cual se llama a cada atributo y se obtiene de forma inequivoca el mismo con el que se creó.  
 
 ## composer
 

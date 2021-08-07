@@ -1,3 +1,5 @@
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/OsvaldoGDelRio/persona/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/OsvaldoGDelRio/persona/?branch=main)
+
 # persona
 Clase en PHP para crear el Objeto/Clase persona que utiliza los atributos:
 

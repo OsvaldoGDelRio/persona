@@ -1,12 +1,12 @@
 # persona
 Clase en PHP para crear el Objeto/Clase persona que utiliza los atributos:
 
-Nombre completo.
-    -Nombres.
-    -Primer Apellido.
-    -Segundo Apellido.
-Fecha de nacimiento.
-Sexo.
+Nombre completo\
+    -Nombres\
+    -Primer Apellido\
+    -Segundo Apellido\
+Fecha de nacimiento\
+Sexo\
 
 ## composer
 

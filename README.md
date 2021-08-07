@@ -1,4 +1,6 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/OsvaldoGDelRio/persona/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/OsvaldoGDelRio/persona/?branch=main)
+[![Build Status](https://scrutinizer-ci.com/g/OsvaldoGDelRio/persona/badges/build.png?b=main)](https://scrutinizer-ci.com/g/OsvaldoGDelRio/persona/build-status/main)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/OsvaldoGDelRio/persona/badges/code-intelligence.svg?b=main)](https://scrutinizer-ci.com/code-intelligence)
 
 # persona
 Clase en PHP para crear el Objeto/Clase persona que utiliza los atributos:

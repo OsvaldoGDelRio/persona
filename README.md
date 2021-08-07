@@ -18,7 +18,7 @@ composer require osvaldogdelrio/persona
 ---------------------------------------------------------------------------
 ## Uso por medio de Factory:
 
-
+[factory](https://github.com/OsvaldoGDelRio/factory)
 
 ```php
 <?php

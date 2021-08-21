@@ -1,14 +1,9 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "91dbb8ee76ebcf6af5130d8f7a3f1754",
     "packages": [
         {
             "name": "osvaldogdelrio/factory",
             "version": "dev-main",
+            "version_normalized": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OsvaldoGDelRio/factory.git",
@@ -20,8 +15,10 @@
                 "reference": "c56fec704cba73f168635d31cd94281e459e304b",
                 "shasum": ""
             },
+            "time": "2021-08-21T15:39:20+00:00",
             "default-branch": true,
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "src\\": "src/"
@@ -42,18 +39,9 @@
                 "issues": "https://github.com/OsvaldoGDelRio/factory/issues",
                 "source": "https://github.com/OsvaldoGDelRio/factory/tree/main"
             },
-            "time": "2021-08-21T15:39:20+00:00"
+            "install-path": "../osvaldogdelrio/factory"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "osvaldogdelrio/factory": 20
-    },
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "dev": true,
+    "dev-package-names": []
 }

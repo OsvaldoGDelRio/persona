@@ -1,6 +1,6 @@
 {
-    "name": "osvaldogdelrio/persona",
-    "description": "Clase para generar objeto Persona y sus atributos",
+    "name": "osvaldogdelrio/factory",
+    "description": "Clase para crear otros objetos/clases con el patr\u0000n Factory",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -13,8 +13,5 @@
         "psr-4": {
             "src\\": "src/"
         }
-    },
-    "require": {
-        "osvaldogdelrio/factory": "dev-main"
     }
 }

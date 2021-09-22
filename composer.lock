@@ -12,13 +12,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OsvaldoGDelRio/factory.git",
-                "reference": "c56fec704cba73f168635d31cd94281e459e304b"
+                "reference": "cfcee6a7d03869736e5ce68fda74c0751ab3d621"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OsvaldoGDelRio/factory/zipball/c56fec704cba73f168635d31cd94281e459e304b",
-                "reference": "c56fec704cba73f168635d31cd94281e459e304b",
+                "url": "https://api.github.com/repos/OsvaldoGDelRio/factory/zipball/cfcee6a7d03869736e5ce68fda74c0751ab3d621",
+                "reference": "cfcee6a7d03869736e5ce68fda74c0751ab3d621",
                 "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "scrutinizer/ocular": "dev-master"
             },
             "default-branch": true,
             "type": "library",
@@ -42,7 +46,7 @@
                 "issues": "https://github.com/OsvaldoGDelRio/factory/issues",
                 "source": "https://github.com/OsvaldoGDelRio/factory/tree/main"
             },
-            "time": "2021-08-21T15:39:20+00:00"
+            "time": "2021-09-18T01:39:41+00:00"
         }
     ],
     "packages-dev": [],
